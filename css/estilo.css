@@ -218,6 +218,10 @@ h3 {
 	align-items: start;
 }
 
+.skills-grid {
+	align-items: stretch;
+}
+
 .section-heading-row {
 	display: flex;
 	align-items: end;
