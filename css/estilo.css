@@ -171,6 +171,7 @@ h3 {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 240px));
 	justify-content: center;
+	align-items: start;
 	gap: 24px;
 	margin: 24px auto;
 }
