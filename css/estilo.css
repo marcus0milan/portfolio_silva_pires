@@ -305,6 +305,47 @@ tfoot {
 	color: #53635f;
 }
 
+.team-contacts {
+	padding: 28px 0;
+	background: var(--cor-suave);
+}
+
+.team-contact-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 20px;
+}
+
+.contact-person {
+	margin: 0;
+	padding: 18px;
+	border: 1px solid var(--cor-borda);
+	background: white;
+}
+
+.contact-person .eyebrow {
+	margin-bottom: 8px;
+}
+
+.contact-person h3 {
+	margin: 0 0 16px;
+	font-size: 18px;
+	word-break: break-word;
+}
+
+.person-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 18px;
+}
+
+.person-links a {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	font-weight: bold;
+}
+
 .site-footer {
 	padding: 18px 0;
 	border-top: 1px solid var(--cor-borda);
@@ -442,6 +483,7 @@ tfoot {
 	.about-grid,
 	.skills-grid,
 	.media-section,
+	.team-contact-grid,
 	.contact-main,
 	.form-grid,
 	.choice-fieldset {
