@@ -185,9 +185,11 @@ h3 {
 
 .student-profile img {
 	width: 100%;
-	height: auto;
+	aspect-ratio: 4 / 5;
 	display: block;
 	border: 1px solid var(--cor-borda);
+	object-fit: cover;
+	object-position: center;
 }
 
 .student-profile figcaption {
