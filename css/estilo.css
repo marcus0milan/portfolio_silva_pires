@@ -1,6 +1,6 @@
 :root {
-	--cor-principal: #155e55;
-	--cor-destaque: #c6533e;
+	--cor-principal: #7220B6;
+	--cor-destaque: #B62063;
 	--cor-texto: #243331;
 	--cor-suave: #edf4ef;
 	--cor-borda: #cbd8d1;
@@ -149,7 +149,7 @@ h3 {
 }
 
 .button:hover {
-	background: #0e4942;
+	background: #B62063;
 	color: white;
 }
 
