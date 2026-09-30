@@ -9,38 +9,32 @@
 	<link rel="stylesheet" href="css/estilo.css">
 </head>
 <body id="top">
-	<header class="site-header">
-		<div class="header-inner">
-			<nav class="main-nav" aria-label="Navegação principal">
-				<a href="index.html" aria-current="page">Início</a>
-				<a href="#secao-habilidades">Habilidades</a>
-				<a href="#secao-projetos">Projetos</a>
-				<a href="#secao-equipe">Equipe</a>
-				<a class="nav-contact" href="contato.html">Contato <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
-			</nav>
+	<header>
+		<div class="site-header">
+			<div class="header-inner">
+				<nav class="main-nav" aria-label="Navegação principal">
+					<a href="index.html" aria-current="page">Início</a>
+					<a href="#secao-habilidades">Habilidades</a>
+					<a href="#secao-projetos">Projetos</a>
+					<a href="#secao-equipe">Equipe</a>
+					<a class="nav-contact" href="contato.html">Contato <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+				</nav>
+			</div>
+		</div>
+		<div class="hero content-width hero-title">
+			<h1 class="page-title" id="titulo-principal">Marcus Vinicius Milan da Silva e Felipe Savegnago Pires</h1>
+			<h2>Tecnologia em Análise e Desenvolvimento de Sistemas</h2>
 		</div>
 	</header>
 
 	<main>
-		<section class="hero content-width" aria-labelledby="titulo-principal">
+		<section class="hero content-width" aria-label="Apresentação">
 			<div class="hero-copy">
-				<h1 class="page-title" id="titulo-principal">Portfólio Profissional</h1>
-				<h2>Desenvolvedores Web e Estudantes em ADS</h2>
 				<p class="hero-description"> Somos desenvolvedores focado em desenvolvimento web e mobile, com mais de 2 anos de experiência acadêmica. Acreditamos em criar aplicações eficientes, intuitivas e escaláveis, facilitando o dia a dia para o usuário.</p>
 				<div class="hero-actions">
 					<a class="button button-primary" href="#secao-projetos">Ver projetos <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a>
 					<a class="text-link" href="#secao-equipe">Contatos individuais <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
 				</div>
-			</div>
-			<div class="student-photos" aria-label="Integrantes do portfólio">
-				<figure class="student-profile">
-					<img src="image/foto-silva.jpg" alt="Foto de Marcus Vinicius Milan da Silva">
-					<figcaption>Marcus Vinicius Milan da Silva</figcaption>
-				</figure>
-				<figure class="student-profile">
-					<img src="image/foto-pires.jpg" alt="Foto de Felipe Pires Savegnago">
-					<figcaption>Felipe Savegnago Pires</figcaption>
-				</figure>
 			</div>
 			<a class="scroll-cue" href="#secao-sobre"><i class="bi bi-arrow-down" aria-hidden="true"></i><span>Sobre a equipe</span></a>
 		</section>
@@ -50,6 +44,16 @@
 				<div class="section-heading">
 					<p class="eyebrow">01 / Nossa trajetória</p>
 					<h2 id="titulo-sobre">Sobre nós</h2>
+				<div class="student-photos" aria-label="Integrantes do portfólio">
+					<figure class="student-profile">
+						<img src="image/foto-silva.jpg" alt="Foto de Marcus Vinicius Milan da Silva">
+						<figcaption>Marcus Vinicius Milan da Silva</figcaption>
+					</figure>
+					<figure class="student-profile">
+						<img src="image/foto-pires.jpg" alt="Foto de Felipe Pires Savegnago">
+						<figcaption>Felipe Savegnago Pires</figcaption>
+					</figure>
+				</div>
 				</div>
 				<div class="about-copy">
 					<p>Somos Marcus Vinicius Milan da Silva e Felipe Savegnago Pires, estudantes de Análise e Desenvolvimento de Sistemas na FATEC. Nossa jornada na tecnologia nasceu da curiosidade e da vontade de transformar ideias em soluções que realmente façam sentido. Gostamos de entender problemas do dia a dia e pensar em formas simples, criativas e úteis de resolvê-los por meio da tecnologia.</p>
@@ -70,7 +74,7 @@
 			<div class="skills-grid">
 				<article class="skill-panel">
 					<h3><i class="bi bi-terminal" aria-hidden="true"></i> Linguagens e tecnologias</h3>
-					<ul class="skill-list">
+					<ul class="skill-list" type="square">
 						<li>Linguagens: Python, JavaScript, VBA, C, C++ e PHP.</li>
 						<li>Desenvolvimento web: HTML e CSS.</li>
 						<li>Frameworks: React, Next.js e Flutter.</li>
@@ -136,6 +140,13 @@
 								<td><span class="project-status">Concluído</span></td>
 							</tr>
 						</tbody>
+						<tfoot>
+							<tr>
+								<th scope="row" colspan="2">Carga horária total</th>
+								<td>96 horas</td>
+								<td>3 concluídos e 1 em execução</td>
+							</tr>
+						</tfoot>
 					</table>
 				</div>
 			</div>
@@ -192,6 +203,10 @@
 		<div class="content-width footer-inner">
 			<p>Portfólio acadêmico Silva e Pires <span>© 2026</span></p>
 			<div class="footer-links">
+				<a href="https://github.com/marcus0milan" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Marcus Vinicius Milan da Silva" title="GitHub de Marcus Vinicius Milan da Silva"><i class="bi bi-github" aria-hidden="true"></i></a>
+				<a href="https://br.linkedin.com/in/mvm2006" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Marcus Vinicius Milan da Silva" title="LinkedIn de Marcus Vinicius Milan da Silva"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+				<a href="https://github.com/svgfelps" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Felipe Savegnago Pires" title="GitHub de Felipe Savegnago Pires"><i class="bi bi-github" aria-hidden="true"></i></a>
+				<a href="https://br.linkedin.com/in/felipe-savegnago-27a887337" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Felipe Savegnago Pires" title="LinkedIn de Felipe Savegnago Pires"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
 				<a class="back-to-top" href="#top">Voltar ao topo <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
 			</div>
 		</div>

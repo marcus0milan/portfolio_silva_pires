@@ -91,13 +91,13 @@
 					<label class="form-field satisfaction-field">
 						<span>Nível de satisfação com o site <span class="required-mark">*</span></span>
 						<span class="range-hint">De 0 (baixo) a 10 (alto)</span>
-						<input type="number" name="satisfacao" min="0" max="10" step="1" placeholder="0 a 10" required>
+						<input type="number" name="satisfacao" min="0" max="10" placeholder="0 a 10" required>
 					</label>
 				</fieldset>
 
 				<p class="form-note"><span class="required-mark">*</span> Campos obrigatórios</p>
 				<div class="form-actions">
-					<button class="button button-primary" type="submit">Enviar <i class="bi bi-arrow-up-right" aria-hidden="true"></i></button>
+					<button class="button button-primary" type="submit" disabled>Enviar <i class="bi bi-arrow-up-right" aria-hidden="true"></i></button>
 					<button class="button button-reset" type="reset"><i class="bi bi-arrow-counterclockwise" aria-hidden="true"></i> Limpar</button>
 				</div>
 				<p class="form-feedback" id="mensagem-formulario" role="status" aria-live="polite"></p>
@@ -116,6 +116,7 @@
 	<script>
 		const contactForm = document.querySelector('#form-contato');
 		const feedback = document.querySelector('#mensagem-formulario');
+		contactForm.querySelector('button[type="submit"]').disabled = false;
 
 		contactForm.addEventListener('submit', (event) => {
 			event.preventDefault();
