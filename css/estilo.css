@@ -379,17 +379,18 @@ tfoot {
 	padding: 20px 0;
 }
 
-.audio-panel {
+.video-panel {
 	padding: 16px;
 	border: 1px solid var(--cor-borda);
 	background: white;
 }
 
-.audio-panel audio {
+.video-panel video {
 	width: 100%;
+	aspect-ratio: 16 / 9;
 }
 
-.audio-panel span {
+.video-panel span {
 	display: block;
 	color: #53635f;
 }
